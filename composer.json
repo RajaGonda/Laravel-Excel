@@ -21,13 +21,13 @@
   ],
   "require": {
     "ext-json": "*",
-    "php": "^7.3",
+    "php": "^7.3|^7.4|^7.5",
     "phpoffice/phpspreadsheet": "^1.14",
     "illuminate/support": "^6.0|^7.0|^8.0"
   },
   "require-dev": {
     "orchestra/testbench": "^5.0",
-    "phpunit/phpunit": "^9.3",
+    "phpunit/phpunit": "^8.4|^9.0",
     "mockery/mockery": "^1.4",
     "orchestra/database": "^5.1",
     "predis/predis": "^1.1"
