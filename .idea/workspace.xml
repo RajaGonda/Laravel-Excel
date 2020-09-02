@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0da91ad-d244-4085-b322-e0debd552365" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/excel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cache/BatchCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cache/CacheManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cache/MemoryCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChunkReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/Exportable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/FromArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/FromCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/FromGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/FromIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/FromQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/FromView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/Importable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/MapsCsvSettings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/OnEachRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/RegistersEventListeners.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/ShouldAutoSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/SkipsEmptyRows.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/SkipsErrors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/SkipsFailures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/SkipsOnError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/SkipsOnFailure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/SkipsUnknownSheets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/ToArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/ToCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/ToModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithBatchInserts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithCalculatedFormulas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithCharts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithChunkReading.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithColumnFormatting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithConditionalSheets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithCustomChunkSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithCustomCsvSettings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithCustomQuerySize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithCustomStartCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithCustomValueBinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithDrawings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithEvents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithHeadingRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithHeadings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithLimit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithMappedCells.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithMapping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithMultipleSheets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithPreCalculateFormulas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithProgressBar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithStartRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithStrictNullComparison.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithTitle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concerns/WithValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Config/Configuration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Config/SettingsProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/ExportMakeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/ImportMakeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/WithModelStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/stubs/export.model.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/stubs/export.plain.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/stubs/export.query-model.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/stubs/export.query.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/stubs/import.collection.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/stubs/import.model.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefaultValueBinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DelegatedMacroable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/AfterImport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/AfterSheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/BeforeExport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/BeforeImport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/BeforeSheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/BeforeWriting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/ImportFailed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Excel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExcelServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/ConcernConflictException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/LaravelExcelException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/NoFilePathGivenException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/NoFilenameGivenException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/NoTypeDetectedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/RowSkippedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/SheetNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/UnreadableFileException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exporter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facades/Excel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factories/ReaderFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factories/WriterFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fakes/ExcelFake.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fakes/fake_file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/Disk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/Filesystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/LocalTemporaryFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/RemoteTemporaryFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/TemporaryFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/TemporaryFileFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Filters/ChunkReadFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HasEventBus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeadingRowImport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helpers/ArrayHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helpers/CellHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helpers/FileTypeDetector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Importer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Imports/EndRowFinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Imports/HeadingRowExtractor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Imports/HeadingRowFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Imports/ModelImporter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Imports/ModelManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Imports/Persistence/CascadePersistManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jobs/AfterImportJob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jobs/ExtendedQueueable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jobs/ProxyFailures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jobs/QueueExport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jobs/QueueImport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jobs/ReadChunk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MappedReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixins/DownloadCollectionMixin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixins/DownloadQueryMacro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixins/ImportAsMacro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixins/ImportMacro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixins/StoreCollectionMixin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixins/StoreQueryMacro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegistersCustomConcerns.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Row.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Transactions/DbTransactionHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Transactions/NullTransactionHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Transactions/TransactionHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Transactions/TransactionManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Validators/Failure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Validators/RowValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Validators/ValidationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Writer.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gwZwiem4qbFaImGjoS0qHVjhLZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0da91ad-d244-4085-b322-e0debd552365" name="Default Changelist" comment="" />
+      <created>1599027855500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599027855500</updated>
+      <workItem from="1599027856768" duration="699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="152" width="839" height="530" key="find.popup" timestamp="1599028562007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="152" width="839" height="530" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1599028562007" />
+  </component>
+</project>
